@@ -23,8 +23,8 @@ Also shows an entry to run the gnome system monitor.
 
 ### Network monitor: net.1s.py
 Shows the current network download and upload rates.
-The rates are colored according to the download rates. Feel free to modify
-the script to adjust the rate to your connection.
+The rates are colored according to the download rates.
+Feel free to modify the script to adjust the rate to your connection.
 When clicked, shows whether each of the available network interfaces
 are up or down.
 Also shows an entry to run the network connections editor.
@@ -42,3 +42,7 @@ mkdir -p $HOME/.config/argos
 cd $HOME/.config/argos
 ln -s $HOME/argos-scripts/*.py .
 ```
+
+## Requirements
+The scripts require Python 3 with the `psutil` package, which is normally
+already installed in most Linux distributions.
